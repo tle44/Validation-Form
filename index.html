@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+
+        <!-- Reset -->
+        <link rel="stylesheet" href="./assets/reset.css" />
+        <!-- Embed fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Style -->
+        <link rel="stylesheet" href="./assets/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <!-- Login form -->
+            <div class="form form-login" id="login">
+                <h2 class="heading">Login</h2>
+                <!-- username -->
+                <form class="form-box" action="#">
+                    <div class="input-box">
+                        <span class="icon"
+                            ><ion-icon name="person"></ion-icon
+                        ></span>
+                        <input type="text" name="username" id="username" />
+                        <label for="username">Username</label>
+                    </div>
+
+                    <!-- Password -->
+
+                    <div class="input-box">
+                        <span class="icon"
+                            ><ion-icon name="lock-closed"></ion-icon
+                        ></span>
+                        <input type="password" name="password" id="password" />
+                        <label for="password">Password</label>
+                    </div>
+
+                    <!-- Button Login -->
+                    <button type="submit" class="btn">Login</button>
+
+                    <!-- Reset PW -->
+                    <div class="term-agreement">
+                        <a class="link forgot-link" href="#!">
+                            Forgot Password?</a
+                        >
+                    </div>
+                    <!-- Sign up prompt -->
+
+                    <div class="question">
+                        <p>
+                            Need a account?
+                            <a class="link-register link" href="#!">Sign Up</a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Register form -->
+            <div class="form form-register" id="register">
+                <h2 class="heading">Registration</h2>
+                <!-- username -->
+                <form class="form-box" action="#">
+                    <div class="input-box">
+                        <span class="icon"
+                            ><ion-icon name="person"></ion-icon
+                        ></span>
+                        <input type="text" name="username" id="username" />
+                        <label for="username">Username</label>
+                    </div>
+
+                    <!-- email -->
+
+                    <div class="input-box">
+                        <span class="icon"
+                            ><ion-icon name="mail"></ion-icon
+                        ></span>
+                        <input type="email" name="email" id="email" />
+                        <label for="email">Email</label>
+                    </div>
+
+                    <!-- Password -->
+
+                    <div class="input-box">
+                        <span class="icon"
+                            ><ion-icon name="lock-closed"></ion-icon
+                        ></span>
+                        <input type="password" name="password" id="password" />
+                        <label for="password">Password</label>
+                    </div>
+                    <!-- Password -->
+
+                    <div class="input-box">
+                        <span class="icon"
+                            ><ion-icon name="lock-closed"></ion-icon
+                        ></span>
+                        <input type="password" name="password" id="password" />
+                        <label for="password">Re-Password</label>
+                    </div>
+
+                    <!-- Term -->
+                    <div class="term-agreement">
+                        <label
+                            ><input class="checkBox" type="checkbox" />I agree
+                            to the terms & conditions</label
+                        >
+                    </div>
+
+                    <!-- Button SignUp -->
+                    <button type="submit" class="btn">Sign Up</button>
+
+                    <!-- Login -->
+
+                    <div class="question">
+                        <p>
+                            Already have an account?
+                            <a class="link-login link" href="#!">Login</a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Script -->
+
+        <script src="./script.js"></script>
+
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+        ></script>
+    </body>
+</html>
