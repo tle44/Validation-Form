@@ -29,20 +29,15 @@ a {
 /* Body */
 
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 400px;
+    height: auto;
     max-width: calc(100%-48px);
     margin: 200px auto;
 }
 
 .form {
     padding: 40px;
-    margin: 0 auto;
-    width: 400px;
-    height: 600px;
+    width: 100%;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, 0.5);
     border-radius: 20px;
